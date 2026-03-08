@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api',
+  baseURL: 'https://devtask-manager-ukp1.onrender.com/api',
 });
 
 // Automatically attach token to every request
